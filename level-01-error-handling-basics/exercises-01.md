@@ -456,13 +456,13 @@ done
 
 After completing all exercises, verify:
 
-- [ ] Try-catch blocks work correctly
-- [ ] Errors are caught and logged
-- [ ] Custom error classes work
-- [ ] Error types can be checked with instanceof
-- [ ] Async errors are handled properly
-- [ ] Errors can be propagated when needed
-- [ ] All code is type-safe
+- [X] Try-catch blocks work correctly
+- [X] Errors are caught and logged
+- [X] Custom error classes work
+- [X] Error types can be checked with instanceof
+- [X] Async errors are handled properly
+- [X] Errors can be propagated when needed
+- [X] All code is type-safe
 
 ## Troubleshooting
 
