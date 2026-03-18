@@ -23,7 +23,7 @@ Central error middleware gives you:
 
 ```mermaid
 flowchart LR
-  route[RouteHandler] -->|throw| next[next(err)]
+  route[RouteHandler] -->|throw| next["next(err)"]
   next --> middleware[ErrorMiddleware]
   middleware --> logs[LogsAndTracking]
   middleware --> res[HTTPResponse]
